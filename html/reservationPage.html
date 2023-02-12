@@ -1,0 +1,55 @@
+<main className="w-screen min-h-screen bg-gray-100">
+  <main className="m-auto bg-white rounded max-w-screen-2xl">
+    {/* NAVBAR */}
+    <nav className="flex justify-between p-2 bg-white">
+      <a href="#" className="text-2xl font-bold text-gray-700">
+        OpenTable
+      </a>
+      <div>
+        <div className="flex">
+          <button className="p-2 px-4 bg-[#6a67b3] rounded border text-white">Log in</button>
+          <button className="ml-3 p-2 px-3 rounded border">Log out</button>
+        </div>
+      </div>
+    </nav>
+    {/* NAVBAR END */}
+
+    {/* HEADER */}
+    <div className="borer-t h-screen">
+      <div className="py-9 w-3/5 m-auto">
+        <div>
+          <h3 className="font-bold">You're almos done!</h3>
+          <div className="mt-5 flex">
+            <img
+              src="https://img.freepik.com/foto-gratis/mesa-vista-superior-llena-surtido-comida-deliciosa_23-2149141340.jpg?w=740&t=st=1675978511~exp=1675979111~hmac=407cdd0ae89a05fffe86cf4f1bf5c6be831b4bb6ee08b74ca7793ee77679f4f3"
+              alt=""
+              className="w-32 h-18 rounded"
+            />
+            <div className="ml-4">
+              <h1 className="text-3xl font-bold">Aiäna Restaurant Collective</h1>
+              <div className="flex mt-3">
+                <p className="mr-6">Tuesday, 22, 2023</p>
+                <p className="mr-6">19:30 PM</p>
+                <p className="mr-6">3 People</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* FORM */}
+        <div className="mt-10 flex flex-wrap justify-between w-[660px]">
+          <input className="border rounded p-3 w-80 mb-4" type="text" placeholder="First Name" />
+          <input className="border rounded p-3 w-80 mb-4" type="text" placeholder="Last Name" />
+          <input className="border rounded p-3 w-80 mb-4" type="text" placeholder="Phone Number" />
+          <input className="border rounded p-3 w-80 mb-4" type="text" placeholder="Email" />
+          <input className="border rounded p-3 w-80 mb-4" type="text" placeholder="Occasion (optional)" />
+          <input className="border rounded p-3 w-80 mb-4" type="text" placeholder="Request (optional)" />
+          <button className="bg-red-600 w-full p-3 text-white font-bold rounded disabled:gb-gray-300">Complete reservation</button>
+          <p className="mt-4 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione impedit, laudantium possimus sequi eaque voluptatem id reprehenderit soluta earum? Ea, perspiciatis.</p>
+        </div>
+        {/* FORM */}
+      </div>
+    </div>
+    {/* HEADER END */}
+  </main>
+</main>
