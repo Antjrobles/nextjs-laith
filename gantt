@@ -1,0 +1,26 @@
+gantt
+    title Cronograma de Desarrollo - Kids Planner
+    dateFormat YYYY-MM-DD
+    axisFormat %b %Y
+
+    section Fase 1: Análisis
+    Definición Requisitos      :2026-02-01, 7d
+    Diseño BD                  :after Definición Requisitos, 7d
+    Diseño Arquitectura        :after Diseño BD, 7d
+
+    section Fase 2: Configuración
+    Setup Entorno              :after Diseño Arquitectura, 3d
+    Setup Backend              :after Setup Entorno, 11d
+
+    section Fase 3: Desarrollo
+    Arquitectura Base App      :after Setup Backend, 7d
+    Autenticación              :after Arquitectura Base App, 9d
+    CRUD Hijos                 :after Autenticación, 11d
+    CRUD Actividades y Pagos   :after CRUD Hijos, 27d
+
+    section Fase 4: Pruebas
+    Unit Tests                 :after CRUD Actividades y Pagos, 8d
+    Depuración                 :after Unit Tests, 7d
+
+    section Fase 5: Documentación
+    Memoria TFC                :after Depuración, 16d
